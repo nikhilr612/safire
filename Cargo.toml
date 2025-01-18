@@ -1,0 +1,10 @@
+[package]
+name = "safire"
+description = "A small library for simulated annealing using arrayfire."
+version = "0.1.0"
+edition = "2021"
+authors = ["Nikhil R."]
+
+[dependencies]
+arrayfire = "3.8"
+tinyrand = "0.5.0"
