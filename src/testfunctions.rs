@@ -12,7 +12,7 @@ use arrayfire as af;
 /// ```
 /// # Parameters
 /// - x: Input array of values to evaluate. The first dimension specifies the number of `x_i` for `f(x)`.
-/// So, an input array of dim4(3,2) is will evaluate the ackley funciton on two 3d vectors.
+///     So, an input array of dim4(3,2) will evaluate the ackley funciton on two 3d vectors.
 ///
 /// # Returns
 /// - Array containing the Ackley function value applied along the first dimension.
@@ -31,6 +31,15 @@ pub fn ackley(x: &af::Array<f32>) -> af::Array<f32> {
 
     // Formula
     -A * af::exp(&(-B * rmx2)) - af::exp(&mcosx) + A + E
+}
+
+/// "Flat" variant of the Ackley function that returns a single f32 value after flattening the input.
+pub fn ackley_flat(x: &af::Array<f32>) -> f32 {
+    let x = af::flat(x);
+    let result = ackley(&x);
+    let mut host_val = [0.0f32];
+    result.host(&mut host_val);
+    host_val[0]
 }
 
 /// The Rastrigin function is a non-convex function used as a performance test problem for optimization algorithms.
@@ -54,6 +63,15 @@ pub fn rastrigin(x: &af::Array<f32>) -> af::Array<f32> {
     A * n + af::sum(&v, 0)
 }
 
+/// "Flat" variant of the Rastrigin function that returns a single f32 value after flattening the input.
+pub fn rastrigin_flat(x: &af::Array<f32>) -> f32 {
+    let x = af::flat(x);
+    let result = rastrigin(&x);
+    let mut host_val = [0.0f32];
+    result.host(&mut host_val);
+    host_val[0]
+}
+
 /// The Schwefel function is a continuous, multimodal function used as a benchmark for optimization algorithms.
 /// It has a global minimum of 0 at x = 420.9687 and many local minima.
 /// Mathematically,
@@ -72,6 +90,15 @@ pub fn schwefel(x: &af::Array<f32>) -> af::Array<f32> {
     const A: f32 = 418.9829;
     let n = x.dims()[0] as f32;
 
-    let v = x * af::sin(&af::sqrt(&x));
+    let v = x * af::sin(&af::sqrt(x));
     A * n - af::sum(&v, 0)
+}
+
+/// "Flat" variant of the Schwefel function that returns a single f32 value after flattening the input.
+pub fn schwefel_flat(x: &af::Array<f32>) -> f32 {
+    let x = af::flat(x);
+    let result = schwefel(&x);
+    let mut host_val = [0.0f32];
+    result.host(&mut host_val);
+    host_val[0]
 }
