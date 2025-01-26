@@ -1,6 +1,6 @@
 //! Unit tests for sequential simulated annealing.
 use arrayfire as af;
-use safire::{seqsa, testfunctions};
+use safire::{lsops::random_perturbation, seqsa, testfunctions};
 
 const TEST_SEED: u64 = 1737207124100;
 
@@ -13,12 +13,6 @@ fn exponential_schedule(start: f32, alpha: f32, steps: usize) -> impl Iterator<I
         Some(y)
     })
     .take(steps)
-}
-
-fn random_perturbation(x: &af::Array<f32>, scale: f32) -> af::Array<f32> {
-    let dims = x.dims();
-    let noise = af::randn::<f32>(dims) * scale;
-    x + noise
 }
 
 #[test]

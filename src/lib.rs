@@ -1,6 +1,8 @@
 //! A small library for simulated annealing using arrayfire.
 
 #[warn(clippy::pedantic)]
+pub mod lsops;
+pub mod parsa;
 // Public APIs
 pub mod seqsa;
 pub mod testfunctions;

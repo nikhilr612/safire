@@ -26,3 +26,6 @@ fn to_scalar(x: af::Array<f32>) -> f32 {
 
 #[cfg(test)]
 mod objectivefn;
+
+#[cfg(test)]
+mod neighbourfn;

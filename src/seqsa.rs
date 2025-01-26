@@ -8,7 +8,7 @@ use tinyrand::{Probability, Rand, Seeded, StdRand};
 ///
 /// # Arguments
 ///
-/// * `batch_size` - Number of iterations to perform at each temperature
+/// * `chain_length` - Number of iterations to perform at each temperature
 /// * `k` - Boltzmann constant that scales the acceptance probability
 /// * `start` - Initial state/solution
 /// * `energy` - Objective function that evaluates the "energy" (cost) of a state
@@ -26,7 +26,7 @@ use tinyrand::{Probability, Rand, Seeded, StdRand};
 ///
 /// Panics if the Boltzmann constant `k` is not positive.
 pub fn minimize<T, E, F, G>(
-    batch_size: usize,
+    chain_length: usize,
     k: f32,
     start: T,
     energy: E,
@@ -50,7 +50,7 @@ where
             break;
         }
 
-        for _ in 0..batch_size {
+        for _ in 0..chain_length {
             let n = neighbour(&x);
             let en = energy(&n);
 
@@ -83,7 +83,7 @@ where
 ///
 /// # Arguments
 ///
-/// * `batch_size` - Number of iterations to perform at each temperature
+/// * `chain_length` - Number of iterations to perform at each temperature
 /// * `k` - Boltzmann constant that scales the acceptance probability
 /// * `start` - Initial state/solution
 /// * `energy` - Objective function that evaluates the "energy" (cost) of a state
@@ -104,7 +104,7 @@ where
 ///
 /// Panics if the Boltzmann constant `k` is not positive.
 pub fn minimize_lazy<'iter, T, E, F, G>(
-    batch_size: usize,
+    chain_length: usize,
     k: f32,
     start: T,
     energy: E,
@@ -127,7 +127,7 @@ where
     temperatures
         .take_while(|&t| t > 0.0)
         .map(move |temperature| {
-            for _ in 0..batch_size {
+            for _ in 0..chain_length {
                 let n = neighbour(&x);
                 let en = energy(&n);
 
