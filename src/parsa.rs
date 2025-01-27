@@ -15,7 +15,7 @@ use arrayfire::{self as af, dim4};
 /// * `batch_size` - Number of parallel annealing chains to run
 /// * `chain_length` - Number of iterations at each temperature
 /// * `k` - Boltzmann constant used in acceptance probability calculation
-/// * `start` - Initial state array
+/// * `start` - Initial state.
 /// * `energy` - Function that computes the energy/cost of a state
 /// * `neighbour_map` - Function that generates neighboring states
 /// * `temperatures` - Iterator providing the temperature schedule
@@ -41,18 +41,18 @@ where
     F: Fn(&af::Array<f32>) -> af::Array<f32>,
     G: Iterator<Item = f32>,
 {
-    let search_dim = dim4!(start.dims()[0], batch_size);
-    let mut x = af::tile(start, search_dim);
+    let tile_dim = dim4!(1, batch_size);
+    let mut x = af::tile(start, tile_dim);
     let mut ex = energy(&x);
 
     assert!(k > 0.0, "Boltzmann constant must be positive");
 
     for temperature in temperatures {
-        for _ in 0..chain_length {
+        for _chain_idx in 0..chain_length {
             let n = neighbour_map(&x);
             let en = energy(&n);
             let logprobs = (&ex - &en) / (k * temperature);
-            let diffs = af::le(
+            let diffs = af::gt(
                 &af::exp(&logprobs),
                 &af::randu::<f32>(dim4!(1, batch_size)),
                 true,
@@ -60,10 +60,10 @@ where
             x = af::select(&n, &diffs, &x);
             ex = af::select(&en, &diffs, &ex);
         }
-        let (index, _) = af::imin(&ex, 1);
-        let selected_xs = af::lookup(&x, &index, 1);
-        x = af::tile(&selected_xs, search_dim);
-    }
 
+        let (index, _min_energy) = af::imin(&ex, 1);
+        let selected_xs = af::lookup(&x, &index, 1);
+        x = af::tile(&selected_xs, tile_dim);
+    }
     x
 }

@@ -1,0 +1,1742 @@
+
+running 5 tests
+test unittests::objectivefn::test_schwefel_global_minimum ... ok
+test unittests::objectivefn::test_schwefel_origin ... ok
+test unittests::objectivefn::test_schwefel_dimensionality ... ok
+test unittests::objectivefn::test_schwefel_multiple_points ... ok
+test unittests::objectivefn::test_schwefel_multiple_dimensions ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 11 filtered out; finished in 0.57s
+
+
+running 1 test
+[INITIALIZATION] Beginning parallel simulated annealing optimization with parameters: batch_size=10, chain_length=10, Boltzmann constant k=0.01
+[START] Estimates=
+[2 10 1 1]
+  380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000 
+  380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000   380.0000 
+
+[START] Energies=
+[1 10 1 1]
+  381.6422   381.6422   381.6422   381.6422   381.6422   381.6422   381.6422   381.6422   381.6422   381.6422 
+[T-STEP] Temperature iteration 0: T=800
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=237.17126, maximum=480.15515
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-12.314121, maximum=18.058865
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0310  2308.6167  2035.3585 69641040.0000 380902.9375     0.0001     0.0000 2735693.7500     1.0429     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 0: 6 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          1          1          0          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  376.4290   374.1774   378.2323   394.6005   386.7828   378.9844   375.5443   387.2942   380.0557   379.9750 
+  380.3463   395.5374   389.8428   384.6214   386.1165   372.3829   373.1476   387.7277   379.9844   370.7585 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=237.17126
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=98.97058, maximum=407.22037
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-12.593296, maximum=20.512054
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+  744.2842     0.0000     0.0000     0.0000     0.0000 2142329.0000     0.2124 809602944.0000   196.9443     0.0520 
+   [C-STEP] Metropolis acceptance at chain step 1: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          1          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  376.3687   364.7790   375.9482   385.2952   382.1036   393.9430   384.2902   394.2470   384.5764   395.8510 
+  391.0328   395.5038   381.9084   380.1294   380.4983   381.6424   374.5643   410.7608   380.6610   364.7670 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=152.0951, maximum=615.7103
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-29.258518, maximum=22.080963
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+3887232000.0000    96.0313   143.1889  2810.5605     0.0016     0.0263   652.3139     0.0000 116831.4531     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 2: 6 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          1          1          0          0          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  388.2798   372.2670   383.8029   390.7238   396.0297   392.4509   388.3826   377.3935   390.4670   369.2887 
+  406.4511   406.9788   388.9447   397.8825   372.6666   379.2889   378.3760   406.4988   387.0204   364.7281 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=112.65021, maximum=362.8917
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-14.649639, maximum=15.281704
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0057     0.5847     0.0008     3.2642  1770.0306  3476.0911  1051.6007     0.1809     0.0000 4332710.5000 
+   [C-STEP] Metropolis acceptance at chain step 3: 7 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          1          1          1          1          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  385.1106   369.2758   383.5654   384.5221   383.4583   401.5974   393.2090   392.5897   382.0632   391.2203 
+  402.0988   423.7546   381.7133   412.0280   399.4728   384.5830   381.0957   409.5604   380.2020   384.5494 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=93.56738, maximum=387.43768
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-17.771225, maximum=11.703827
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0028     8.9228   131.6534     0.0179     0.0032 121034.0156    10.8629     0.0000     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 4: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          0          1          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  379.0863   364.3999   382.0277   392.6844   386.6765   406.4400   392.9813   399.4180   382.8370   387.3003 
+  392.6953   424.8660   393.6872   405.5817   390.0403   376.6447   394.1380   403.6984   376.6096   373.6975 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=104.58801, maximum=360.5174
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-12.641106, maximum=9.489349
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0526  1040.3965     0.0001     0.0000  2475.1125     0.0000 13218.1924     0.0143  1232.0751     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 5: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          1          0          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  383.7363   378.7766   371.2182   384.2997   389.0545   398.9698   398.7614   410.5004   396.1810   376.8680 
+  409.8941   436.6162   397.0794   400.9865   403.8694   375.8918   401.9589   389.9856   389.9126   385.9940 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=40.24121, maximum=236.78601
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-6.156845, maximum=9.100784
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0021    16.9450    34.9118   435.9510     3.3981     2.5167  3113.0249   107.8153  8962.3193    16.8663 
+   [C-STEP] Metropolis acceptance at chain step 6: 9 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          1          1          1          1          1          1          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  384.4497   378.0376   387.2399   397.8000   386.4691   397.5752   411.1389   403.2863   403.2034   393.4129 
+  401.4866   417.2661   391.8072   411.5020   413.2635   388.2871   405.9009   409.1024   395.7274   385.6270 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=13.127197, maximum=291.3711
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-8.742508, maximum=6.9197083
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0002     6.7418   633.9518     0.0771     0.5262   154.5598    29.6438     1.4451  1012.0247     0.0011 
+   [C-STEP] Metropolis acceptance at chain step 7: 7 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          0          1          1          1          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  383.8337   381.4027   391.2952   392.5695   384.8245   399.2468   411.7339   406.5933   404.2495   385.2159 
+  398.3247   410.0790   395.4792   419.0067   421.4787   392.8921   416.5561   406.0746   406.4829   386.0295 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=45.948853, maximum=262.33044
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-4.5662384, maximum=12.85096
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+ 6160.3638     3.1831     0.0133     0.0423 381154.4062     0.0104     0.0165     0.2655     0.1525     0.0410 
+   [C-STEP] Metropolis acceptance at chain step 8: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          0          0          1          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  406.1011   382.4983   385.2173   403.7747   401.9117   388.3522   401.6524   406.5033   401.6837   402.5405 
+  399.7885   410.2029   397.0937   397.7966   426.8655   398.1869   421.8701   403.4632   405.4227   376.5428 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=23.037292, maximum=300.02258
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-7.9045715, maximum=4.696701
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0100     0.0005     0.0065    10.9333     0.3984     0.6302     0.2897   109.5851     8.5852     0.0004 
+   [C-STEP] Metropolis acceptance at chain step 9: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          0          1          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  407.5909   381.0868   390.4454   399.2946   412.2338   402.7899   422.2496   410.7141   411.4939   398.5087 
+  392.5155   398.2051   390.1028   420.8514   440.3444   389.8123   434.4457   410.7448   404.8469   374.5110 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 0 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         6 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  411.7339   411.7339   411.7339   411.7339   411.7339   411.7339   411.7339   411.7339   411.7339   411.7339 
+  416.5561   416.5561   416.5561   416.5561   416.5561   416.5561   416.5561   416.5561   416.5561   416.5561 
+
+[T-STEP] Temperature iteration 1: T=640
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=1.956543, maximum=79.17993
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-5.590821, maximum=34.970707
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+15180.4365 201661366272.0000 44926000.0000     2.1961     3.2846 27426322432.0000     0.0271     0.0629     0.0037 1540228154130432.0000 
+   [C-STEP] Metropolis acceptance at chain step 0: 7 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          1          1          1          1          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  408.1453   431.7290   397.7312   402.7436   422.7708   417.0598   425.8212   402.8028   399.2400   413.6263 
+  422.2116   426.2621   414.6682   411.4115   402.7202   420.4595   404.5717   415.8804   407.8189   413.9360 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=1.956543
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=1.1769409, maximum=166.55005
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-17.844212, maximum=5.596581
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+   21.0276     0.0134     0.0027     0.0000     0.0175     0.0234     0.0967     1.7860   269.5034     0.0003 
+   [C-STEP] Metropolis acceptance at chain step 1: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.9939   438.7873   394.6510   396.2707   430.0488   413.8224   405.9376   410.5560   421.3157   417.1269 
+  420.5585   414.0468   406.7590   393.1719   399.3823   433.4399   420.2860   412.5173   413.2022   398.3680 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=7.5804443, maximum=141.36725
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-18.572552, maximum=3.548136
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0033     5.1934     5.2346    34.7485     1.2097     0.1358     0.0821     0.0000     0.5296     0.1190 
+   [C-STEP] Metropolis acceptance at chain step 2: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          1          1          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  428.8906   428.4959   401.9134   408.9789   429.6695   412.8724   409.4432   396.5095   429.0853   406.8897 
+  436.3761   419.1205   432.0355   411.2926   405.2336   413.7630   410.9502   397.1551   426.1100   417.0139 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=5.017761, maximum=105.617004
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-9.889289, maximum=2.3779109
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0013     0.0041     0.0008     0.0024     0.0470     0.0001     0.0043    10.7824     2.8182     1.2670 
+   [C-STEP] Metropolis acceptance at chain step 3: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          1          1          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  439.4320   439.4704   391.2805   413.0514   437.4246   409.4760   412.8766   424.7471   420.2113   413.7960 
+  418.1967   421.2294   423.1237   398.7032   406.5397   440.7438   403.0136   427.5586   427.2277   414.6588 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=2.5073242, maximum=148.23901
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-13.776561, maximum=0.32752994
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.8123     0.2040     0.0000     1.3875     0.1690     0.0491     0.4822     0.2291     0.0926     0.3826 
+   [C-STEP] Metropolis acceptance at chain step 4: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          1          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.9376   430.6042   385.2887   413.4927   435.8639   411.6859   424.4758   425.0694   411.8904   412.1122 
+  417.6416   414.0272   420.7308   408.1278   407.1482   411.8307   409.5609   431.7314   429.8398   428.8230 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=0.7352295, maximum=118.5426
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-17.384111, maximum=0.33357623
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.3190     1.3960     0.2221     0.0296     0.0507     0.3101     0.2337     0.0000     0.6664     0.6471 
+   [C-STEP] Metropolis acceptance at chain step 5: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          0          0          0          0          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  420.8053   426.4193   405.0555   411.8537   435.8982   424.1568   413.0254   414.1453   425.0504   410.8302 
+  418.5591   424.6320   438.4762   403.0284   405.0638   429.0147   410.1884   451.3637   427.5765   417.6440 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=0.6730957, maximum=169.56714
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-24.704382, maximum=3.3995154
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0589     0.4403    15.6789     0.2915     0.4825     0.0000    29.9496     0.0046     0.0000     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 6: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          1          1          0          0          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  426.6960   429.4441   403.7255   415.7522   426.2177   394.8582   423.2645   438.4748   419.7522   393.0377 
+  410.1116   424.5668   414.2030   404.8861   402.6347   415.5463   421.2145   426.1832   446.1570   395.8980 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=0.46826172, maximum=59.344116
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-4.868994, maximum=2.8154185
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.7524     0.3803     1.3055    16.7002     0.0503     1.2618     0.0897     0.1673     0.0077     3.1704 
+   [C-STEP] Metropolis acceptance at chain step 7: 7 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          1          1          0          1          1          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.1838   430.3840   405.5255   410.8781   428.1404   420.1421   414.0389   421.6507   428.9834   417.8689 
+  411.1042   419.0649   411.5110   414.8653   400.1914   419.2281   429.9070   433.1488   436.6077   425.7310 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=3.6367188, maximum=85.541504
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-9.34476, maximum=-0.49507144
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0008     0.0020     0.0011     0.0003     0.0008     0.6095     0.0001     0.0172     0.0001     0.0135 
+   [C-STEP] Metropolis acceptance at chain step 8: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  440.1334   435.9935   409.8847   397.8630   437.0716   421.7493   402.0443   429.6299   440.0029   420.9674 
+  408.0512   432.6039   397.1322   414.9826   400.1536   415.6481   436.9117   437.7483   433.3687   436.8512 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=3.7785645, maximum=140.76428
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-21.143553, maximum=3.95422
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0006     0.0000    52.1550     1.1796     0.3672     0.3896     6.5537     0.0000     0.9332     1.0473 
+   [C-STEP] Metropolis acceptance at chain step 9: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          0          1          0          1          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  444.4835   446.3147   415.2128   417.9214   421.5110   412.5958   422.0328   432.2094   426.8894   415.6880 
+  420.1951   443.2161   411.4763   409.9409   401.4933   418.3228   426.5474   446.4307   426.3320   422.4361 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 1 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         5 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  417.9214   417.9214   417.9214   417.9214   417.9214   417.9214   417.9214   417.9214   417.9214   417.9214 
+  409.9409   409.9409   409.9409   409.9409   409.9409   409.9409   409.9409   409.9409   409.9409   409.9409 
+
+[T-STEP] Temperature iteration 2: T=512
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.7862549, maximum=35.089844
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-2.9189825, maximum=3.5042286
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    2.4403     0.3695     4.4981     0.0540     2.7191     0.0953     0.0570    33.2558     3.2336     0.2929 
+   [C-STEP] Metropolis acceptance at chain step 0: 6 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          1          0          1          0          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  424.3864   423.3465   413.8445   419.5486   414.6245   420.0343   429.7526   423.4636   424.8715   424.7273 
+  410.1416   412.1102   417.6687   405.1338   405.3985   409.8043   412.4887   421.0158   419.9727   412.8413 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.7862549
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=9.876343, maximum=61.432983
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-11.5985155, maximum=4.000807
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0006     1.0222     0.6592     1.6883    54.6422     0.0000     0.0000     0.0292     0.0000     0.0008 
+   [C-STEP] Metropolis acceptance at chain step 1: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          1          1          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  424.8998   419.7001   417.6392   411.2827   413.2346   434.4002   416.6903   427.3570   437.1575   430.8566 
+  400.3224   411.9314   412.7439   417.0469   413.4444   404.8011   399.6671   410.4902   436.0621   405.8762 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=12.541138, maximum=81.79352
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-13.938069, maximum=0.6986141
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    2.0110     0.0000     0.5649     0.2092     0.9606     0.0554     0.0692     0.0018     0.0000     0.0002 
+   [C-STEP] Metropolis acceptance at chain step 2: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          1          1          1          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.8214   394.9843   415.6321   407.7812   410.4044   411.6495   423.9318   409.4269   424.9795   433.1799 
+  411.3765   422.6068   412.3911   420.3760   418.3481   413.1978   409.4222   432.4090   441.3316   405.4735 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=0.5014038, maximum=63.264893
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-8.890808, maximum=4.1115522
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0008     3.5254     0.0048    61.0414     0.1721     2.3486     0.0001     1.0572     0.7330     0.0022 
+   [C-STEP] Metropolis acceptance at chain step 3: 6 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          1          1          1          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  434.9706   424.9836   429.6440   419.0417   407.1589   412.8806   418.7231   422.9420   415.8269   409.3534 
+  407.0178   424.8924   406.0250   422.1154   421.9294   414.1300   398.2943   421.2470   422.5459   408.8366 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=1.2543335, maximum=65.81201
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-10.924935, maximum=0.98656416
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0004     0.0013     0.0000     0.8859     0.2315     2.1058     2.6820     0.7117     0.5547     0.0075 
+   [C-STEP] Metropolis acceptance at chain step 4: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          1          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  433.2400   438.4086   397.8327   417.8735   418.8343   412.4401   415.7321   425.1620   414.8381   420.5736 
+  404.4071   420.8708   418.6283   420.3556   436.6249   417.9525   412.3793   421.3899   424.8820   405.7312 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=1.4035034, maximum=84.98956
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-10.558009, maximum=1.7299294
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.4995     0.0001     3.5286     0.2163     0.0000     5.6403     0.0000     0.0311     2.3585     0.0196 
+   [C-STEP] Metropolis acceptance at chain step 5: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          1          1          0          1          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.6029   422.5985   421.1547   429.0444   430.8327   417.6616   419.9027   429.1022   417.5901   431.2751 
+  423.8713   441.6980   415.7569   423.5876   445.2141   421.4218   397.5615   412.0636   418.4095   411.8049 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=0.07623291, maximum=115.21289
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-21.834457, maximum=5.092716
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    3.4961     0.0000     0.0000     0.0158   162.8315     0.3625     0.0010     0.0220     1.5328     0.0081 
+   [C-STEP] Metropolis acceptance at chain step 6: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          1          1          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  426.5797   411.9248   408.5675   436.0928   417.5585   413.8398   412.8278   425.6058   420.2763   417.4680 
+  420.1562   441.6994   392.6449   424.5661   426.4361   419.6478   403.0419   409.1851   420.6154   406.2527 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=3.1868896, maximum=73.87463
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-13.760579, maximum=0.8775115
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.1855     0.3912     0.0000     2.4049     0.0081     0.0546     0.1424     0.1351     0.4794     0.0144 
+   [C-STEP] Metropolis acceptance at chain step 7: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          0          1          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  421.9344   424.3994   434.3272   426.9951   412.7721   408.2492   427.7663   427.0012   416.3593   422.8121 
+  425.8989   428.5739   400.4781   421.3300   434.0398   417.7130   409.3510   413.9650   417.9250   406.7611 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=0.3140869, maximum=108.51288
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-20.295238, maximum=1.6544223
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     5.2301     0.2489     0.0000     0.0001     0.0118     0.7131     0.3011     0.1153     0.1531 
+   [C-STEP] Metropolis acceptance at chain step 8: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          0          0          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  409.3535   422.2780   430.0503   450.6388   438.0269   405.9016   415.3565   423.1042   430.3454   428.7174 
+  443.5219   421.8485   422.0223   418.2547   431.9028   417.8977   430.0781   414.0145   420.3351   414.1649 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=2.0772705, maximum=68.52307
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-10.566282, maximum=0.49296618
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0884     0.0022     0.4281     1.6372     1.4061     0.2569     0.0000     0.4072     0.0046     0.0613 
+   [C-STEP] Metropolis acceptance at chain step 9: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  428.3243   423.7525   426.0923   423.4614   418.1894   412.5673   407.0064   424.3382   410.7103   416.5596 
+  429.3109   436.6241   415.0186   417.7651   425.4364   414.8459   439.8026   426.3587   410.1858   409.7792 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 2 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         8 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  421.9344   421.9344   421.9344   421.9344   421.9344   421.9344   421.9344   421.9344   421.9344   421.9344 
+  425.8989   425.8989   425.8989   425.8989   425.8989   425.8989   425.8989   425.8989   425.8989   425.8989 
+
+[T-STEP] Temperature iteration 3: T=409.6
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.13690186, maximum=30.474731
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-6.5871625, maximum=2.944067
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.3249     0.0035     2.2292     0.3194     0.0014     2.6768    18.9929     0.1327     0.0029     0.0886 
+   [C-STEP] Metropolis acceptance at chain step 0: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          1          1          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  413.6894   408.2654   420.0363   414.6379   418.6159   416.7106   425.0938   428.1523   432.0366   430.7481 
+  423.9763   426.1155   420.5044   424.6558   436.3756   422.4683   422.2773   425.2001   429.2112   424.5813 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.07623291
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=0.02368164, maximum=36.299255
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-6.720125, maximum=0.6477981
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0018     0.8789     1.0280     1.5674     0.3965     0.0028     0.1524     0.0012     0.0067     1.9113 
+   [C-STEP] Metropolis acceptance at chain step 1: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          1          1          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  430.9912   423.3792   420.6550   420.2966   425.8298   406.6990   426.8638   430.8377   423.0045   418.1387 
+  432.3924   420.0383   420.6702   419.7760   426.8040   417.7246   427.6780   434.7954   433.5880   421.9273 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=9.52356, maximum=41.179077
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-9.8477, maximum=-1.5470384
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.2129     0.0001     0.0150     0.0752     0.0523     0.0088     0.0201     0.0089     0.0007     0.0049 
+   [C-STEP] Metropolis acceptance at chain step 2: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.6003   417.6038   414.1566   424.7733   431.0221   408.6937   428.2568   435.7625   428.1959   412.3785 
+  421.9686   438.7975   411.4244   412.4899   428.2160   425.9914   430.5849   423.2384   407.2546   410.5209 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=2.6624756, maximum=32.35034
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-7.271558, maximum=1.4919786
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0360     0.0165     0.1063     0.0707     1.8451     0.0007     0.0009     4.4459     0.0437     0.0060 
+   [C-STEP] Metropolis acceptance at chain step 3: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          1          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  430.0786   429.4384   416.3654   418.5182   422.2543   409.9455   405.9756   423.5942   423.5860   408.8350 
+  430.9949   412.6864   428.1656   430.0189   414.9413   432.6494   425.9909   424.7359   411.1596   426.3805 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=0.09454346, maximum=42.090393
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-10.070189, maximum=0.7915496
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0017     0.0000     2.2068     1.0353     0.0078     0.9559     1.2262     0.0006     0.0163     0.0303 
+   [C-STEP] Metropolis acceptance at chain step 4: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          1          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  437.5683   435.6516   415.9936   420.1298   415.9638   417.1418   417.6944   418.6746   409.3188   431.7339 
+  418.0876   410.0003   425.7175   421.1821   407.8300   423.6489   422.1594   404.7213   420.8013   418.3724 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=0.39337158, maximum=42.90222
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-9.308665, maximum=0.61251223
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.8451     0.0504     0.0054     0.0258     0.0001     1.5831     0.0001     1.7402     0.0083     0.4097 
+   [C-STEP] Metropolis acceptance at chain step 5: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          1          0          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  426.5894   430.9911   406.1526   431.8140   439.4501   418.9340   415.4937   421.7126   416.7894   422.7719 
+  416.0641   419.1335   420.0204   422.3853   419.6331   422.6276   437.8297   419.3670   432.7611   415.0721 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=7.5807495, maximum=110.18005
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-25.733917, maximum=-0.4584938
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.6322     0.1280     0.0008     0.1351     0.0000     0.1853     0.0019     0.0000     0.1601     0.0233 
+   [C-STEP] Metropolis acceptance at chain step 6: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  414.4290   415.9391   417.1587   428.7289   423.6994   416.8536   433.2923   436.5341   418.1400   421.3618 
+  415.6771   414.0093   437.3328   418.6212   390.6581   414.2659   412.8863   401.9734   428.1853   408.2483 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=0.5783081, maximum=35.43463
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-8.277639, maximum=1.4590918
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    4.3021     1.0667     2.8219     0.0031     0.0018     0.0013     0.0003     0.6256     0.0620     0.4997 
+   [C-STEP] Metropolis acceptance at chain step 7: 5 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          1          0          0          0          0          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  416.1592   421.4454   422.0365   431.2409   429.5202   412.7077   412.9691   423.9739   411.5342   428.6002 
+  420.7469   423.0552   424.4923   411.8250   407.8197   433.4078   435.7457   424.0178   419.3693   422.4386 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=0.5812378, maximum=41.158936
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-8.944362, maximum=0.2760291
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0024     0.2359     1.3179     0.0001     0.0001     0.0358     0.4432     0.0205     0.0214     0.0008 
+   [C-STEP] Metropolis acceptance at chain step 8: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  407.1675   415.2721   421.8941   437.1578   421.0699   427.3766   418.6271   410.2713   430.8310   434.8511 
+  426.5884   425.3423   419.0314   415.4106   402.6889   429.5672   415.2078   415.3679   426.2784   430.9652 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=3.986084, maximum=35.25641
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-8.58891, maximum=-0.33095476
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.2172     0.1737     0.1786     0.3867     0.3691     0.3036     0.0138     0.7182     0.0002     0.2436 
+   [C-STEP] Metropolis acceptance at chain step 9: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          0          0          1          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  421.3640   428.7340   415.6615   415.7618   415.7902   414.3428   418.3258   410.7662   430.8163   431.1656 
+  412.4232   419.9142   415.2613   423.1055   414.3607   419.5934   432.9925   413.7267   407.3586   419.4176 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 3 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         8 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  421.3640   421.3640   421.3640   421.3640   421.3640   421.3640   421.3640   421.3640   421.3640   421.3640 
+  412.4232   412.4232   412.4232   412.4232   412.4232   412.4232   412.4232   412.4232   412.4232   412.4232 
+
+[T-STEP] Temperature iteration 4: T=327.68002
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=2.607544, maximum=39.210205
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-9.640045, maximum=0.52670014
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.9332     0.0060     0.0010     0.4644     0.0059     0.0001     0.0197     1.6933     0.0798     0.0001 
+   [C-STEP] Metropolis acceptance at chain step 0: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  424.8961   432.3576   415.6552   417.1882   427.7563   424.6965   431.6492   432.7505   424.8080   426.4678 
+  413.2624   412.8976   408.4512   423.4983   408.3386   405.8498   420.4924   419.1946   413.7730   404.0428 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.07623291
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=0.94299316, maximum=56.5412
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-17.077623, maximum=1.684334
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    5.3889     0.0002     0.0000     0.1053     0.1373     0.0002     0.0840     0.0430     0.7676     0.0004 
+   [C-STEP] Metropolis acceptance at chain step 1: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          1          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  419.2600   430.9998   411.8251   414.0233   418.1596   429.6107   429.5031   435.7784   423.3687   429.6639 
+  415.6860   407.5300   401.6035   424.3154   410.2442   408.4365   419.0583   423.2344   419.6608   407.1996 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=1.3856201, maximum=41.7406
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-12.450441, maximum=4.2656436
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0074     0.0022     0.0000     0.0000    71.2107     0.0008     0.4304     2.8341     0.0000     0.2828 
+   [C-STEP] Metropolis acceptance at chain step 2: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  427.6238   410.6563   412.5428   419.5473   423.7474   415.0967   419.3354   428.2365   439.2297   421.6882 
+  431.6536   410.1692   405.4639   403.7267   419.1639   408.3784   415.3593   413.0868   421.6704   411.3009 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=0.23925781, maximum=53.578857
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-13.986229, maximum=0.1923181
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0162     0.0000     0.0726     0.0003     0.3801     1.2121     0.0358     0.0029     0.1953     0.0065 
+   [C-STEP] Metropolis acceptance at chain step 3: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  409.6770   425.6377   424.1829   408.1141   417.9176   421.4419   430.5807   430.7078   415.9456   432.4199 
+  417.5428   400.6043   413.0455   414.2255   415.7829   419.6754   423.4795   407.7849   415.9880   428.7486 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=0.030151367, maximum=25.683228
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-7.8090463, maximum=2.76139
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    2.4492     4.7663     0.1796     0.0004     0.0977     1.0659     0.4704    15.8218     0.6605     1.0068 
+   [C-STEP] Metropolis acceptance at chain step 4: 6 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          1          0          0          0          1          1          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  418.2360   420.4732   418.0989   420.8964   416.8965   421.4468   423.4970   427.4439   420.1653   428.6190 
+  421.0674   416.4224   414.5529   406.5869   428.3730   420.8671   415.9297   420.0115   416.7682   419.6652 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=1.2067871, maximum=75.823
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-20.820162, maximum=0.16244127
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.6766     0.0116     0.0000     0.7122     0.0016     0.2684     0.0000     1.1764     0.0364     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 5: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          1          0          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.2982   416.3370   407.7188   419.4908   422.4760   426.7862   431.6696   419.4900   412.3556   442.7427 
+  416.9835   431.7107   409.6824   423.6846   434.2530   421.6998   405.8936   427.0051   425.4250   409.3314 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=2.326294, maximum=86.253296
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-25.519243, maximum=0.43127683
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.3752     0.0000     0.0017     0.7106     0.6174     0.0004     1.5392     0.0626     0.3918     0.0346 
+   [C-STEP] Metropolis acceptance at chain step 6: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          0          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  414.4185   426.0612   421.0367   420.6082   416.4048   407.9870   425.0620   415.1256   421.8818   427.1719 
+  420.3666   394.7320   407.8298   425.2456   419.3145   426.9983   419.0341   412.1848   415.3929   410.4749 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=3.5390625, maximum=85.5509
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-25.930683, maximum=0.3589317
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0295     0.0021     0.0000     0.6907     0.4201     0.0000     0.4749     1.4318     0.2577     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 7: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  410.6248   417.8105   428.1749   417.5586   421.7326   419.8626   414.6693   417.9116   420.7827   438.2838 
+  422.7379   407.7910   395.3956   416.9093   414.2112   404.4886   420.3881   425.4381   414.4229   434.4907 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=1.9213257, maximum=79.40808
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-23.104324, maximum=-0.40896234
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0137     0.0007     0.6643     0.0001     0.0183     0.0000     0.0040     0.0000     0.0078     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 8: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  412.7796   422.1290   424.8036   427.1029   429.7129   404.6130   429.3930   416.4547   432.5412   435.1097 
+  413.0487   406.4464   421.6820   435.6114   413.8127   422.7347   430.6273   445.9088   420.8951   434.5999 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=1.4976807, maximum=29.880127
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-8.1664505, maximum=0.2528727
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0111     1.1734     0.0154     1.2877     0.0003     0.0009     0.2479     0.0003     0.7623     0.0046 
+   [C-STEP] Metropolis acceptance at chain step 9: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          1          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  416.0928   421.8649   426.7478   417.8291   405.7350   409.4968   415.1548   417.8019   424.5356   434.8775 
+  410.3928   416.9765   430.4661   422.3926   418.2125   428.1539   425.7686   436.0700   422.3056   423.7126 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 4 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         5 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  422.2982   422.2982   422.2982   422.2982   422.2982   422.2982   422.2982   422.2982   422.2982   422.2982 
+  416.9835   416.9835   416.9835   416.9835   416.9835   416.9835   416.9835   416.9835   416.9835   416.9835 
+
+[T-STEP] Temperature iteration 5: T=262.144
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=1.8827515, maximum=28.604614
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-10.340474, maximum=0.10579824
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0158     0.9826     1.0148     0.0000     0.0033     0.0238     0.0024     0.0108     0.0616     1.1116 
+   [C-STEP] Metropolis acceptance at chain step 0: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          0          0          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  411.1125   417.1633   420.4691   413.9104   410.9153   429.5772   410.5671   426.7866   414.9118   413.3992 
+  423.6982   422.5872   424.7976   407.5640   427.4623   419.0081   427.1730   411.4698   426.9588   419.9378 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.030151367
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=0.048583984, maximum=34.110474
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-12.164283, maximum=0.8305767
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     2.2326     0.0000     1.1691     2.2946     0.0002     0.6013     0.0246     0.0368     1.2159 
+   [C-STEP] Metropolis acceptance at chain step 1: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          1          1          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  404.8726   420.3518   428.5011   419.3311   421.7519   411.1978   426.4729   420.2155   412.2351   414.1396 
+  416.9358   420.9087   407.0438   423.4058   418.5932   411.6526   420.0974   431.2578   418.2504   418.2170 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=0.32611084, maximum=19.175354
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-6.327708, maximum=0.63353217
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.8843     0.0047     1.8109     0.0085     0.2984     0.1200     0.0018     0.1252     1.0023     0.1967 
+   [C-STEP] Metropolis acceptance at chain step 2: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          1          0          0          1          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.0431   419.8479   422.3423   428.7910   417.8853   415.7643   423.5930   426.1848   421.5049   411.5652 
+  420.5861   431.4868   421.8036   427.7849   425.6450   425.1252   408.8508   427.6952   417.1982   420.7784 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=0.74664307, maximum=43.4386
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-16.446108, maximum=1.3734912
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0039     0.0000     1.1391     0.0126     3.9491     0.0223     1.5749     0.1725     0.0181 
+   [C-STEP] Metropolis acceptance at chain step 3: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          0          1          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  420.0637   431.7220   419.4115   419.1842   414.8297   424.0827   414.2967   417.7087   428.0209   410.3090 
+  403.2381   420.3814   402.2458   419.3142   428.6904   418.5083   413.5140   417.9206   422.0819   415.9820 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=2.1958008, maximum=72.12329
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-27.494316, maximum=1.0147923
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0037     0.0000     0.0000     0.0109     0.5846     0.0002     0.0031     0.0000     0.0000     2.7588 
+   [C-STEP] Metropolis acceptance at chain step 4: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  424.3952   411.5354   403.8659   421.1415   421.5020   410.3529   426.5642   404.0992   419.3896   416.2030 
+  431.4095   443.1273   423.0751   410.9369   416.8264   411.8958   410.4661   426.2387   442.3317   424.1674 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=2.077942, maximum=54.546875
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-20.523159, maximum=-0.49180815
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0001     0.0001     0.0002     0.0000     0.6115     0.0013     0.0001     0.1411     0.0039     0.5490 
+   [C-STEP] Metropolis acceptance at chain step 5: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.7242   419.8875   432.8976   402.1274   422.9596   408.5371   429.6143   413.4262   430.0373   425.1760 
+  406.6722   407.3582   427.3495   411.6465   417.4294   419.9901   432.8970   422.9714   427.8798   426.2231 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=0.4194336, maximum=46.489197
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-16.777054, maximum=0.82710755
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.1866     0.0060     0.1353     0.0000     0.9876     2.2867     0.0000     0.0000     0.0849 
+   [C-STEP] Metropolis acceptance at chain step 6: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  435.8335   421.3950   410.4984   416.1008   408.1845   417.6231   422.7396   408.4269   429.5821   426.9660 
+  424.1380   415.0339   420.3838   425.8509   406.9292   423.1670   421.3997   406.2469   408.2572   428.7530 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=0.3366089, maximum=58.9162
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-21.682074, maximum=0.8889706
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0107     0.0000     0.9960     0.1395     0.0000     0.3128     0.2860     0.2654     0.4079     2.4326 
+   [C-STEP] Metropolis acceptance at chain step 7: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          0          1          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  426.6852   418.6521   419.3963   414.1100   417.1290   414.6185   422.7933   416.1636   426.7190   426.0417 
+  412.8198   402.9549   421.4119   420.7853   399.3570   421.0338   415.8611   425.9089   421.0996   422.0271 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=2.7509155, maximum=31.834656
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-11.929659, maximum=0.607362
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0906     0.3981     1.8356     0.2055     0.0000     0.0559     0.0306     0.0000     0.0180 
+   [C-STEP] Metropolis acceptance at chain step 8: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  436.4341   427.2820   417.7923   426.0747   427.5103   411.9407   423.8177   411.3388   421.6759   431.2424 
+  424.7792   424.1917   424.3922   423.8201   418.4117   408.3085   411.9275   420.3898   436.3385   418.7527 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=4.089966, maximum=48.32776
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-16.788206, maximum=-1.3079028
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.2140     0.0012     0.0000     0.0000     0.0075     0.0005     0.2704     0.0005     0.0083 
+   [C-STEP] Metropolis acceptance at chain step 9: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  411.0247   416.0891   410.7592   424.7990   406.7119   411.1167   425.7637   421.1212   419.0717   431.5914 
+  407.3531   423.9130   428.6514   440.2666   409.8415   416.3306   407.9825   427.8258   407.9474   424.6587 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 5 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         1 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  423.0431   423.0431   423.0431   423.0431   423.0431   423.0431   423.0431   423.0431   423.0431   423.0431 
+  420.5861   420.5861   420.5861   420.5861   420.5861   420.5861   420.5861   420.5861   420.5861   420.5861 
+
+[T-STEP] Temperature iteration 6: T=209.71521
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.4560547, maximum=67.54675
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-31.337957, maximum=1.5474507
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0000     0.0019     2.6525     0.0002     0.0012     4.6995     0.0000     0.0000     1.0034 
+   [C-STEP] Metropolis acceptance at chain step 0: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          0          0          1          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  441.6291   438.4272   409.9083   419.5987   408.5849   420.8055   419.9387   434.7304   406.8154   425.2497 
+  426.8093   429.9447   423.1960   416.9472   423.9354   409.6001   419.3702   403.6690   439.4470   418.0551 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.048583984
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=1.9294434, maximum=46.674194
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-21.937769, maximum=0.58012664
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0514     0.0000     0.0034     0.1754     1.0441     0.0531     0.0046     0.2633     1.7863 
+   [C-STEP] Metropolis acceptance at chain step 1: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          1          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  407.7836   425.9841   408.9932   416.5736   415.9174   423.4454   428.2051   419.4623   423.6724   419.4977 
+  435.0576   416.0078   436.1165   411.2817   425.4356   417.9409   421.1202   410.5792   415.5427   417.0900 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=2.2312012, maximum=37.88446
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-16.981009, maximum=-0.53591794
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.4511     0.0006     0.0000     0.0000     0.2759     0.0031     0.1079     0.1699     0.2196     0.5851 
+   [C-STEP] Metropolis acceptance at chain step 2: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.8562   431.3710   432.6023   404.1350   425.6671   429.8090   418.7387   422.6498   425.3246   418.7095 
+  424.7247   424.7699   411.2908   425.7361   424.9395   415.1795   414.9850   414.1313   414.4064   416.3817 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=0.43273926, maximum=54.12317
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-24.496199, maximum=0.4087051
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.0635     0.0004     0.0000     0.0000     0.0001     0.0000     0.0000     1.5049     0.6135     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 3: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.4864   416.4509   433.9773   433.4013   426.4347   410.9547   409.2955   424.2209   424.2693   407.7405 
+  422.0291   410.4985   404.6745   405.6151   434.0650   405.5825   406.7229   419.3847   415.1372   414.2023 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=0.05657959, maximum=48.09326
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-20.654057, maximum=0.678323
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.9962     0.0050     0.0000     0.0000     0.0000     0.3813     0.0062     0.3121     1.9706 
+   [C-STEP] Metropolis acceptance at chain step 4: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          0          0          0          0          1          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.2297   421.2285   413.8305   434.4372   425.0986   435.3091   416.6419   411.0755   423.4080   421.7628 
+  403.8664   421.5857   428.6547   410.9226   440.1534   410.4382   421.9521   421.6236   413.3191   417.1995 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=1.027832, maximum=44.510315
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-21.017826, maximum=2.922723
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.1620     2.2742     0.2560     0.0250     0.0007     0.0394     0.0006    18.5918     0.0002 
+   [C-STEP] Metropolis acceptance at chain step 5: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  434.8162   417.6743   422.3268   425.1052   423.4563   416.8358   421.4147   411.8778   417.3547   408.4542 
+  433.7090   425.4243   418.4572   416.1103   430.6169   409.9648   428.5288   413.6532   419.3821   420.7761 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=1.0358276, maximum=57.170654
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-26.341063, maximum=1.7965213
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0003     0.4245     6.0286     1.3740     0.0000     0.0093     1.0837     1.5555     0.0001 
+   [C-STEP] Metropolis acceptance at chain step 6: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          0          0          1          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  425.3164   427.4630   421.9625   419.2268   426.6691   441.7128   411.9540   424.1049   418.2877   413.7386 
+  407.3883   411.4029   416.3365   418.1800   421.2446   415.6243   421.7715   419.5852   419.9533   410.3604 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=0.52301025, maximum=47.363403
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-21.934917, maximum=1.7114507
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0001     0.0002     0.0315     0.0000     5.5370     0.0022     0.6700     0.0901     0.0136     0.0404 
+   [C-STEP] Metropolis acceptance at chain step 7: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  433.3288   417.7374   425.8086   401.7535   422.9037   431.6493   422.1590   427.3458   429.3808   426.7726 
+  424.5153   432.4398   414.4585   424.9331   421.5999   422.8316   417.9913   417.6384   423.9566   415.0879 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=1.3002319, maximum=34.37378
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-15.499769, maximum=-0.1260778
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0049     0.0656     0.0196     0.0000     0.0496     0.0014     0.0000     0.1904     0.8815     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 8: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.6133   414.6414   423.4240   428.6863   424.6718   431.7650   431.3143   424.0542   423.7342   437.4365 
+  411.7255   418.5455   429.1816   408.5693   414.6024   418.0678   408.9287   426.4256   419.3399   422.7448 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=0.20922852, maximum=51.442017
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-24.312002, maximum=0.39034057
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0189     0.0177     1.4775     0.7221     0.1020     0.3620     0.0000     1.1291     0.0000     0.0001 
+   [C-STEP] Metropolis acceptance at chain step 9: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          1          0          1          0          1          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  413.1511   422.9285   422.2559   422.8094   416.7356   417.1209   400.7129   423.8168   428.3751   421.4330 
+  418.0287   428.9471   420.9961   424.5479   425.8872   425.1393   417.9567   419.6957   407.4922   434.0110 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 6 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         1 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  422.4864   422.4864   422.4864   422.4864   422.4864   422.4864   422.4864   422.4864   422.4864   422.4864 
+  422.0291   422.0291   422.0291   422.0291   422.0291   422.0291   422.0291   422.0291   422.0291   422.0291 
+
+[T-STEP] Temperature iteration 7: T=167.77217
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.80511475, maximum=37.768616
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-22.253916, maximum=-0.208056
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0126     0.0005     0.0811     0.0000     0.0110     0.8122     0.0001     0.0204     0.1076 
+   [C-STEP] Metropolis acceptance at chain step 0: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  438.2691   422.7984   419.5058   422.5556   406.8875   411.3336   423.4827   422.6423   418.0605   415.8853 
+  419.4004   428.4024   431.0484   427.8302   419.9197   420.7947   421.2059   409.3345   428.2896   425.2906 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.05657959
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=1.0393066, maximum=62.475098
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-32.57144, maximum=-0.30773664
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0057     0.0368     0.0000     0.6164     0.7351     0.0000     0.0000     0.0006     0.0000     0.0066 
+   [C-STEP] Metropolis acceptance at chain step 1: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.0909   416.6678   422.9649   417.7530   423.4072   436.6102   412.2663   427.7339   408.3765   420.9472 
+  418.5017   415.8710   439.8298   417.4555   422.4805   426.3680   433.7453   428.8616   439.4604   430.0081 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=0.0067749023, maximum=39.57556
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-23.108986, maximum=0.029685907
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.2573     1.0301     0.2551     0.0000     0.0000     0.1367     0.0000     0.2579     0.0000     1.0211 
+   [C-STEP] Metropolis acceptance at chain step 2: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          0          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.7079   420.8566   423.6465   433.8920   418.8330   426.3472   436.5677   415.9003   413.3834   420.6971 
+  416.6674   420.7667   424.5234   420.3928   437.0970   426.4161   429.4429   422.4344   432.8394   424.7692 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=1.0767822, maximum=45.34436
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-26.294947, maximum=0.050567906
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.3073     0.5285     0.3401     0.0000     0.0789     1.0519     0.0064     0.0000     0.0002     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 3: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          0          1          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  417.0750   418.0457   419.6686   417.7499   414.4799   424.7383   420.4535   426.0192   407.7230   413.4583 
+  422.9651   420.9218   424.7502   406.7256   420.6722   416.8058   412.3737   439.3283   419.9239   434.1991 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=2.5544434, maximum=58.61194
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-30.26882, maximum=-0.90309185
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.1759     0.0000     0.0168     0.0009     0.4053     0.0007     0.0968     0.0016     0.0000     0.0003 
+   [C-STEP] Metropolis acceptance at chain step 4: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  422.1522   413.8315   414.4705   412.7997   421.6142   423.9314   415.5089   411.8741   431.1764   432.0146 
+  425.9808   409.0120   424.7027   413.8996   416.5100   431.9149   423.7461   424.5984   440.0561   421.3627 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=0.35980225, maximum=50.730164
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-28.534595, maximum=0.8782808
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0032     0.0000     0.0000     0.0000     0.0000     0.0000     0.0052     1.0301     0.0000     2.4068 
+   [C-STEP] Metropolis acceptance at chain step 5: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.8337   413.5542   433.1789   430.6397   421.9508   434.1819   423.0390   422.0415   420.5634   421.2420 
+  419.8138   430.4892   413.3723   403.1984   438.5960   415.2991   429.4632   418.1043   439.0991   422.6345 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=3.0325928, maximum=19.143555
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-10.790973, maximum=-0.0376167
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0025     0.0006     0.0574     0.4760     0.0000     0.0770     0.0031     0.3313     0.9631     0.0006 
+   [C-STEP] Metropolis acceptance at chain step 6: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.0846   410.6441   415.9606   416.1501   413.8299   418.2287   413.6219   419.6030   413.0926   429.8080 
+  425.1267   419.8197   424.7940   417.9066   410.8723   413.3235   426.4157   416.2535   421.9144   425.7808 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=1.2883911, maximum=52.962036
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-29.864895, maximum=1.2909003
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0441     0.0441     1.1545     0.0000     0.0381     3.6361     0.3219     0.0006     0.0036     0.5749 
+   [C-STEP] Metropolis acceptance at chain step 7: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          1          1          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  419.4700   417.1736   415.4219   400.3560   414.7264   422.9417   424.5916   430.3001   411.1010   418.0496 
+  414.4199   426.9383   418.3057   418.2646   424.5587   417.7335   418.0823   416.4063   414.5596   422.2731 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=5.217407, maximum=96.09302
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-56.63409, maximum=-2.8518844
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0577     0.0000     0.0186     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0001 
+   [C-STEP] Metropolis acceptance at chain step 8: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  427.3652   393.0127   428.2932   404.5127   425.8565   428.4293   433.7386   433.2377   408.0689   423.3617 
+  421.6136   416.5964   414.8680   421.0070   408.2970   410.7828   416.7039   420.5017   411.4376   432.5060 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=0.78723145, maximum=51.0531
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-27.591814, maximum=-0.2112938
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.8095     0.0941     0.0000     0.0000     0.0000     0.0246     0.0024     0.0000     0.0000     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 9: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  418.8055   414.8119   410.1225   415.5266   410.8848   423.4271   417.9638   409.0089   424.5259   415.4322 
+  422.2191   422.4558   438.0104   403.8291   404.5694   413.3615   411.3166   419.0825   402.4537   408.9922 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 7 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         0 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055 
+  422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191 
+
+[T-STEP] Temperature iteration 8: T=134.21774
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.5192871, maximum=37.604614
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-27.215353, maximum=1.3395036
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0003     0.0000     0.4242     0.3962     0.4099     0.7098     3.8171     1.6349     0.0000     0.8141 
+   [C-STEP] Metropolis acceptance at chain step 0: 4 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          1          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  414.4602   404.1765   424.2793   420.2712   417.4160   416.7577   418.3767   420.2305   434.2408   421.4660 
+  428.0311   416.2856   414.9654   426.6242   418.7037   421.5179   421.6725   422.8576   420.8549   424.4534 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.5192871
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=0.40185547, maximum=10.398254
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-7.069911, maximum=1.8292665
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0420     0.0196     0.2194     6.2293     0.5224     0.0058     0.0009     0.0186     5.5929     0.1874 
+   [C-STEP] Metropolis acceptance at chain step 1: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          1          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  414.6616   414.8849   413.6119   420.0452   424.7430   422.7315   427.4734   418.5959   420.3289   417.4337 
+  421.5679   424.6414   420.7467   422.4952   421.9109   412.5948   414.6237   414.5610   427.5877   425.1790 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=1.2597656, maximum=47.293823
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-33.545345, maximum=0.90976745
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0005     0.8726     2.4837     0.0000     0.3455     0.0000     0.0373     0.0000     0.0000     0.0003 
+   [C-STEP] Metropolis acceptance at chain step 2: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          1          0          1          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  430.0950   423.3604   416.8154   424.4696   425.3873   440.1100   415.1599   415.6612   424.3664   429.3271 
+  422.9125   423.0320   424.2617   408.2036   418.3383   417.4500   423.8946   436.5498   434.5685   415.5925 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=0.199646, maximum=52.42163
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-38.75775, maximum=0.7898506
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     2.2031     0.0426     0.0000     0.0088     0.0271     1.3252     0.0451     0.6548     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 3: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          1          0          0          0          1          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  416.3688   421.7332   426.8428   411.0812   428.8312   422.3591   419.0258   427.0565   427.7401   428.7297 
+  432.3409   419.9700   426.1735   438.8973   417.0954   413.5706   420.3070   420.8757   419.2729   437.3341 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=0.7841797, maximum=50.47754
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-37.02216, maximum=2.2924721
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.6469     0.0006     0.0002     0.0004     0.1054     0.0003     0.0000     9.8994     0.0065 
+   [C-STEP] Metropolis acceptance at chain step 4: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  406.4586   421.2997   428.2679   415.6368   410.9087   424.3076   422.1109   423.6009   424.5289   414.8071 
+  434.8875   418.4963   428.3382   412.9500   417.9107   412.6257   411.4922   409.2885   423.6451   426.2785 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=1.1506958, maximum=32.074585
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-23.310892, maximum=4.4413805
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0000     0.0000     0.0000     0.0000    84.8921     0.0001     0.0000     0.0000     0.0217 
+   [C-STEP] Metropolis acceptance at chain step 5: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.3981   413.9807   407.1248   410.8197   408.4049   419.9252   412.8216   410.5744   422.6339   425.7445 
+  436.7759   409.3814   424.3464   417.6606   420.9573   418.1328   427.3916   424.6732   435.0571   415.4539 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=2.1680908, maximum=35.42639
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-25.229063, maximum=-1.2195413
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0073     0.0155     0.0000     0.0010     0.0000     0.0000     0.2954     0.0000     0.0069     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 6: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  413.8121   426.1390   409.2644   424.4590   426.6836   421.7523   419.3729   432.3939   421.4402   420.8603 
+  423.7285   425.3461   427.4302   412.9413   431.2626   407.0782   417.1387   422.8621   412.4211   404.0349 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=0.08679199, maximum=49.360596
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-34.290085, maximum=0.48835313
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0024     0.0000     0.3163     0.0000     0.4971     1.3926     0.0000     1.6296     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 7: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          1          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  415.0632   428.3086   410.6148   417.1064   440.0528   424.1580   420.2671   430.6670   417.1597   415.2938 
+  408.9273   417.5126   433.6868   421.7053   415.4025   418.4422   420.5267   427.1247   421.3931   430.6259 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=1.7888184, maximum=36.908447
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-26.6416, maximum=-1.0942584
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0002     0.0000     0.1878     0.0047     0.2238     0.0000     0.2814     0.0022     0.1101     0.3348 
+   [C-STEP] Metropolis acceptance at chain step 8: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  411.7632   432.5659   424.3352   427.7776   425.9492   412.1396   419.0902   412.7192   414.7827   416.1043 
+  424.9034   421.4627   426.8416   424.6909   425.1566   406.1777   424.2310   422.3022   421.1170   420.2997 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=0.2947998, maximum=60.52014
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-42.831104, maximum=1.921171
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0015     0.0033     0.0000     0.2605     6.8289     0.0000     0.8564     0.0000     0.0104     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 9: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  429.3973   421.6814   409.5428   416.9233   420.3036   419.0900   420.8891   413.6464   414.4583   401.5209 
+  418.8436   428.8413   412.0971   422.0473   418.6073   410.2941   419.4420   430.2481   416.3712   410.3602 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 8 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         1 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055   418.8055 
+  422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191   422.2191 
+
+[T-STEP] Temperature iteration 9: T=107.3742
+   [C-STEP] Generated neighbor states for chain step 0
+   [C-STEP] Evaluated neighbor energies at chain step 0: minimum=0.41949463, maximum=42.145813
+   [C-STEP] Computed acceptance log probabilities at chain step 0: minimum=-38.97679, maximum=-0.016427746
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0009     0.0447     0.0001     0.9837     0.6932     0.0001     0.0000     0.0095     0.0001     0.1106 
+   [C-STEP] Metropolis acceptance at chain step 0: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          1          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  426.1683   426.1930   426.0027   422.3629   417.9568   413.1931   402.4977   422.2527   421.9519   424.1648 
+  427.1677   421.8211   411.6783   419.7940   420.6993   426.7279   422.0258   427.4524   430.7190   415.2524 
+
+   [C-STEP] Updated state ensemble and energies at chain step 0
+   [C-STEP] Progress report at chain step 0: Current minimum energy=0.199646
+   [C-STEP] Generated neighbor states for chain step 1
+   [C-STEP] Evaluated neighbor energies at chain step 1: minimum=0.69177246, maximum=35.528503
+   [C-STEP] Computed acceptance log probabilities at chain step 1: minimum=-32.69781, maximum=0.81644195
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0000     0.0006     0.0000     1.0643     0.0000     0.0000     0.3748     0.0657     2.2624 
+   [C-STEP] Metropolis acceptance at chain step 1: 3 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          1          0          0          1          0          1 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  425.0441   413.2741   411.4207   428.1734   418.9525   422.0984   410.9098   417.7299   415.7481   425.0750 
+  431.6088   426.3216   420.0877   405.6790   422.1604   435.2725   420.5551   419.5562   424.2320   421.4340 
+
+   [C-STEP] Updated state ensemble and energies at chain step 1
+   [C-STEP] Generated neighbor states for chain step 2
+   [C-STEP] Evaluated neighbor energies at chain step 2: minimum=0.885376, maximum=54.673584
+   [C-STEP] Computed acceptance log probabilities at chain step 2: minimum=-50.274475, maximum=0.053205434
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.4246     0.5280     1.0546     0.0000     0.0000     0.0000     0.0000     0.0073     0.0091     0.0022 
+   [C-STEP] Metropolis acceptance at chain step 2: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          1          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.8898   418.4883   424.8499   435.2146   435.6655   430.2364   407.5950   421.0308   422.1275   413.8537 
+  423.2016   420.0351   417.4252   416.4747   435.7854   424.9285   426.3982   428.3397   428.2723   416.6066 
+
+   [C-STEP] Updated state ensemble and energies at chain step 2
+   [C-STEP] Generated neighbor states for chain step 3
+   [C-STEP] Evaluated neighbor energies at chain step 3: minimum=1.7042236, maximum=74.44769
+   [C-STEP] Computed acceptance log probabilities at chain step 3: minimum=-67.86984, maximum=0.0025011103
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    1.0025     0.0000     0.1549     0.0000     0.0000     0.0000     0.0001     0.0000     0.0829     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 3: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         1          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  417.9212   406.3889   424.6285   423.0285   409.0460   430.5798   412.6844   404.7753   419.9735   433.5651 
+  418.9102   422.5672   426.4510   437.7832   414.6997   409.6644   417.2834   402.4981   415.0525   423.6968 
+
+   [C-STEP] Updated state ensemble and energies at chain step 3
+   [C-STEP] Generated neighbor states for chain step 4
+   [C-STEP] Evaluated neighbor energies at chain step 4: minimum=3.1033936, maximum=39.56024
+   [C-STEP] Computed acceptance log probabilities at chain step 4: minimum=-36.45266, maximum=-2.6157064
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0422     0.0000     0.0000     0.0000     0.0000     0.0000     0.0731     0.0276     0.0000     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 4: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  425.9812   411.6773   424.5361   438.5032   416.4796   410.9124   417.8347   416.1367   436.5908   425.9472 
+  417.0533   421.9554   410.3666   423.9117   410.4915   416.8971   424.8129   416.5195   426.2840   404.7438 
+
+   [C-STEP] Updated state ensemble and energies at chain step 4
+   [C-STEP] Generated neighbor states for chain step 5
+   [C-STEP] Evaluated neighbor energies at chain step 5: minimum=0.3433838, maximum=42.10083
+   [C-STEP] Computed acceptance log probabilities at chain step 5: minimum=-38.565186, maximum=1.4026681
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0048     0.0021     0.0001     0.0000     0.0000     0.0605     0.0440     4.0660     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 5: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  425.6541   414.1564   411.9896   420.2405   439.0539   416.4579   425.9136   420.5953   421.2958   413.8067 
+  410.9258   420.0190   421.3971   412.0646   424.0659   437.5894   422.2875   427.2050   419.3512   407.5778 
+
+   [C-STEP] Updated state ensemble and energies at chain step 5
+   [C-STEP] Generated neighbor states for chain step 6
+   [C-STEP] Evaluated neighbor energies at chain step 6: minimum=2.0232544, maximum=27.903564
+   [C-STEP] Computed acceptance log probabilities at chain step 6: minimum=-24.52225, maximum=-1.4936175
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0691     0.0000     0.0031     0.2246     0.0044     0.0527     0.0363     0.0000     0.1240     0.0012 
+   [C-STEP] Metropolis acceptance at chain step 6: 1 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  423.2517   408.0198   412.1974   419.5462   416.8575   415.2404   425.6751   406.0302   423.5409   427.8442 
+  415.3878   421.1396   421.4995   424.7106   426.8682   419.7549   423.8654   422.2986   417.2416   426.1922 
+
+   [C-STEP] Updated state ensemble and energies at chain step 6
+   [C-STEP] Generated neighbor states for chain step 7
+   [C-STEP] Evaluated neighbor energies at chain step 7: minimum=2.635254, maximum=54.073975
+   [C-STEP] Computed acceptance log probabilities at chain step 7: minimum=-50.174374, maximum=-2.0635865
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0000     0.0000     0.0000     0.1270     0.0000     0.0023     0.0125     0.0000     0.0006     0.0031 
+   [C-STEP] Metropolis acceptance at chain step 7: 0 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          0          0          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  405.9999   403.4059   420.1743   416.6882   411.5145   411.6801   417.3522   406.2963   415.0194   423.2169 
+  426.0537   432.2479   400.6160   422.5835   422.8403   420.6911   415.8067   412.5529   415.4097   428.7884 
+
+   [C-STEP] Updated state ensemble and energies at chain step 7
+   [C-STEP] Generated neighbor states for chain step 8
+   [C-STEP] Evaluated neighbor energies at chain step 8: minimum=0.40020752, maximum=60.864197
+   [C-STEP] Computed acceptance log probabilities at chain step 8: minimum=-53.439915, maximum=1.1945643
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0421     0.0002     0.0000     0.0000     0.0600     3.3021     0.0000     0.0000     0.9485     0.0000 
+   [C-STEP] Metropolis acceptance at chain step 8: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          0          0          0          1          0          0          1          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  414.6237   428.4818   432.1626   410.3675   415.8723   423.6748   430.4916   418.0403   422.3879   408.6301 
+  420.3457   416.5991   401.8174   408.4734   419.0876   425.0499   412.3547   430.5997   419.8930   415.0446 
+
+   [C-STEP] Updated state ensemble and energies at chain step 8
+   [C-STEP] Generated neighbor states for chain step 9
+   [C-STEP] Evaluated neighbor energies at chain step 9: minimum=0.038391113, maximum=15.445007
+   [C-STEP] Computed acceptance log probabilities at chain step 9: minimum=-14.01156, maximum=0.23879918
+   [C-STEP] Metropolis acceptance factors:
+[1 10 1 1]
+    0.0006     0.0562     0.7959     0.0000     0.0006     0.1206     1.2697     0.0321     0.0000     0.0001 
+   [C-STEP] Metropolis acceptance at chain step 9: 2 states accepted
+   [C-STEP] Acceptance vector
+[1 10 1 1]
+         0          0          1          0          0          0          1          0          0          0 
+   [C-STEP] Neighbours
+[2 10 1 1]
+  416.0966   425.9124   421.3099   416.9901   416.7285   419.8153   420.8282   422.1627   429.6934   430.5986 
+  428.2040   419.6956   415.5338   411.7917   413.8048   414.5771   420.4353   414.6051   414.1463   421.9788 
+
+   [C-STEP] Updated state ensemble and energies at chain step 9
+[T-STEP] Temperature iteration 9 completed
+[T-STEP] Best energy at current temperature=
+[1 1 1 1]
+         6 
+
+[T-STEP] Current state estimates=
+[2 10 1 1]
+  417.9212   417.9212   417.9212   417.9212   417.9212   417.9212   417.9212   417.9212   417.9212   417.9212 
+  418.9102   418.9102   418.9102   418.9102   418.9102   418.9102   418.9102   418.9102   418.9102   418.9102 
+
+[COMPLETION] Optimization procedure finished. Final minimum energy achieved=0.038391113

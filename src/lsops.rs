@@ -15,9 +15,10 @@ pub fn random_perturbation(x: &af::Array<f32>, scale: f32) -> af::Array<f32> {
     x + noise
 }
 
-fn random_swap(x: &af::Array<u32>) -> af::Array<u32> {
-    let n = x.dims()[1]; // How many sequences to randomly swap in parallel.
-    let l = x.dims()[0]; // What is the length of each sequence.
+// TODO: Implement Swap operator.
+// fn random_swap(x: &af::Array<u32>) -> af::Array<u32> {
+//     let n = x.dims()[1]; // How many sequences to randomly swap in parallel.
+//     let l = x.dims()[0]; // What is the length of each sequence.
 
-    todo!("Implement swapping..")
-}
+//     todo!("Implement swapping..")
+// }
